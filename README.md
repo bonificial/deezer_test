@@ -1,3 +1,8 @@
+> You Must Enable Access to the CORS Demo Server to View This Project by clicking the link  below first.
+
+> https://cors-anywhere.herokuapp.com/corsdemo
+
+
 # DVT Assessment - Deezer Angular Application
 
 ### This is a boilerplate project for DVT Angular Assessment - Deezer Application.
