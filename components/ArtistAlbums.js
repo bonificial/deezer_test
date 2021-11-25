@@ -11,7 +11,7 @@ export default function ArtistAlbums({result}) {
             <ul className="divide-y-2 divide-gray-100 min-w-max">
                 {
                     result && result.map((album, key) => {
-                        return (<li className="p-3 flex justify-between w-100 transform sm:hover:scale-105 hover:z-50">
+                        return (<li key={key} className="p-3 flex justify-between w-100 transform sm:hover:scale-105 hover:z-50">
                             <span>{album.title}</span>
                         </li>)
                     })
