@@ -1,6 +1,11 @@
 > You Must Enable Access to the CORS Demo Server to View This Project by clicking the link  below first.
 
 > https://cors-anywhere.herokuapp.com/corsdemo
+> 
+> 
+> After you have enabled that above...
+> 
+> Now click this link to view the project https://deezer-test.vercel.app/
 
 
 # DVT Assessment - Deezer Angular Application
