@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API_KEY = process.env.API_KEY;
-const API_SERVER = process.env.API_SERVER || 'https://api.deezer.com'
+const API_SERVER = process.env.API_SERVER || 'https://cors-anywhere.herokuapp.com/https://api.deezer.com'
 
 export const fetchData = async (url, data) => {
 
