@@ -1,36 +1,107 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# DVT Assessment - Deezer Angular Application
 
-## Getting Started
+### This is a boilerplate project for DVT Angular Assessment - Deezer Application.
 
-First, run the development server:
+<br/>
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+> This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.1.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+<br/>
 
-Test the Live link on https://hulu-clone2-m9zfc7vck-bonificial.vercel.app/
+## Deezer is an internet-based music streaming service. You are required to implement an Angular app to explore its database.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+<br />
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+1. Users should be able to search for artists. For every artist found show the artist's picture and the number of fans
+   they have. On bigger screens, with more available space, also include the total number of albums.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+<br />
 
-## Learn More
+2. Clicking/tapping the artist must allow users to see basic information about them, like its total number of fans. Also
+   show its top 5 tracks along with a list of all their albums. For every album include the year in which it was
+   released.
 
-To learn more about Next.js, take a look at the following resources:
+<br />
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Be sure to follow best practices and to demonstrate the skills you've learnt to develop a modern web app. Keep in mind
+that our team intends to add more features to your code and that they expect this to be quick and easy for them to do.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+<br />
 
-## Deploy on Vercel
+We encourage you to add more assets as necessary and to enhance content with colour and imagery, wherever it makes
+sense, so users may enjoy using your app. This is equally important to us when reviewing your assessment.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+<br />
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Please make sure that all unit tests and linting are passing as this can affect your marking.
+
+<br />
+
+You can also deploy your application to a free hosting service such as Heroku or Github Page using CI/CD pipeline as
+bonus point.
+
+<br />
+
+## IMPORTANT
+
+Most browsers enforce the same-origin restriction which may prevent HTTP calls to the Deezer API. To circumvent this
+problem and to enable CORS (Cross-origin resource sharing) in your app, you can use this two solutions:
+
+<br />
+
+- Simply forward requests through a public CORS proxy that adds the Access-Control-Allow-Origin header to any OPTIONS
+  pre-flight response. For example, when using the https://cors-anywhere.herokuapp.com/ proxy, then a call intended
+  to https://api.deezer.com/search?q=eminem must become a call
+  to https://cors-anywhere.herokuapp.com/https://api.deezer.com/search?q=eminem in your code. Do not forget to activate
+  Heroku permission to use the proxy by clicking on the button Request temporary access to the demo server from this
+  URL https://cors-anywhere.herokuapp.com/corsdemo
+
+<br />
+
+- You can also use the Angular proxy configuration to circumvent CORS
+  issue https://angular.io/guide/build#proxying-to-a-backend-server.
+
+<br /> 
+
+> The project was bootstrapped with Angular CLI 11.2.8 using this command: `ng new musicdb-app`
+
+<br />
+
+You are also welcome to create a fresh Angular Project from your local environment, publish it on GitHub and share the
+link with us.
+
+<br />
+
+Deezer API reference
+https://developers.deezer.com/api
+
+<br />
+
+EXAMPLE
+
+Below are some illustrations to help inspire your implementation.
+
+<br />
+
+Artists view [Desktop]
+
+https://raw.githubusercontent.com/DVT/musicdb-app-angular/master/wireframes/artist-web-view.png
+
+<br />
+
+Artists view [Mobile]
+
+https://raw.githubusercontent.com/DVT/musicdb-app-angular/master/wireframes/artist-mobile-view.png
+
+<br />
+
+
+Artist details view [Desktop]
+
+https://raw.githubusercontent.com/DVT/musicdb-app-angular/master/wireframes/artist-details-web-view.png
+
+<br />
+
+Artist details view [Mobile]
+
+https://raw.githubusercontent.com/DVT/musicdb-app-angular/master/wireframes/artist-details-mobile.PNG

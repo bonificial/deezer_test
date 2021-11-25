@@ -1,0 +1,36 @@
+
+.playIcon {
+    cursor: pointer;
+    border-radius: 50px;
+    justify-content: center;
+    display: flex;
+    width: 80px;
+    height: 75px;
+    align-items: center;
+    padding: 10px;
+    box-shadow: 5px 5px 12px 5px #f1d9d9;
+    left: calc(50% - 75px);
+    top: calc(50% - 75px);
+    position: absolute;
+}
+
+.playIconSmall {
+    cursor: pointer;
+    border-radius: 50px;
+    justify-content: center;
+    display: flex;
+    width: 20px;
+    height: 20px;
+    align-items: center;
+    padding: 10px;
+
+}
+
+.playIcon:hover, .playIconSmall:hover {
+    box-shadow: 5px 5px 12px -5px #999595
+}
+
+.playIconSmall img {
+    width: 15px;
+    height: 15px;
+}

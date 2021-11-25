@@ -1,18 +1,35 @@
 import Image from "next/image"
 import HeaderItem from "./HeaderItem"
-import {BadgeCheckIcon, CollectionIcon, HomeIcon, LightningBoltIcon, SearchIcon, UserIcon} from '@heroicons/react/outline'
+import {HomeIcon} from '@heroicons/react/outline'
+import React from "react";
+import styles from './styles.module.css';
+import deezerlogo from '../assets/deezer.png'
+import Head from "next/head";
+import {useRouter} from "next/dist/client/router";
+
 export default function Header() {
+    const router = useRouter();
     return (
-        <header className="flex flex-col sm:flex-row m-5 justify-between items-center h-auto" >
-            <div className="flex flex-grow justify-evenly max-w-2xl">
-                <HeaderItem title='HOME' Icon={HomeIcon} />
-                <HeaderItem title='TRENDING' Icon={LightningBoltIcon} />
-                <HeaderItem title='VERIFIED' Icon={BadgeCheckIcon} />
-                <HeaderItem title='COLLECTIONS' Icon={CollectionIcon} />
-                <HeaderItem title='SEARCH' Icon={SearchIcon} />
-                <HeaderItem title='ACCOUNT' Icon={UserIcon} />
-            </div>
-            <Image alt="" src="https://press.hulu.com/wp-content/uploads/2020/02/hulu-white.png" width={200} height={100} />
-        </header>
+        <>     <Head>
+
+            <link rel="icon" href="/favicon.ico"/>
+        </Head>
+            <header className="flex flex-col sm:flex-row justify-start items-center h-auto">
+                <div className="flex flex-col group items-center cursor-pointer  w-12 sm:w-20 hover:text-white"
+                     onClick={() => router.push('/')}>
+                    <Image alt="" src={deezerlogo} objectFit={'contain'} layout={'intrinsic'} height={80} width={100}/>
+                </div>
+
+                <div className="flex flex-grow justify-start max-w-2xl">
+                    <HeaderItem title='HOME' Icon={HomeIcon}/>
+                </div>
+                <div className={styles.searchContainer}>
+                    <input
+                        className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                        id="search" type="text" placeholder={'Search Here'}/>
+                </div>
+
+            </header>
+        </>
     )
 }

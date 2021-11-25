@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ceb25a26-ed35-4e1e-a812-80eac1981885" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/deezer2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/icons8-pause-50.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/icons8-play-80.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/loading.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/next.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/pause.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/play.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/playSmall.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/prev.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/spinner.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/ArtistAlbums.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/ArtistTrucks.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/AudioPlayer/AudioSwitch.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/AudioPlayer/AudioSwitchSmall.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/AudioPlayer/style.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/LoadingComponent.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/ThumbNailArtist.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/styles.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/artist/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/img/loading.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/HeaderItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/HeaderItem.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Nav.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Nav.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Results.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Results.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/ThumbNail.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/ThumbNail.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/next.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/_app.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/_app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/api/hello.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/api/hello.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/postcss.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/postcss.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vercel.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/vercel.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/globals.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/requests.js" beforeDir="false" afterPath="$PROJECT_DIR$/utils/requests.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="21NcubHFwaKswcoSpCcDoAT43or" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/components" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\PhpStorm 2021.2.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Bonie\Desktop\Projects\deezer2\components" />
+      <recent name="C:\Users\Bonie\Desktop\Projects\deezer2\assets\img" />
+      <recent name="C:\Users\Bonie\Desktop\Projects\deezer2\components\AudioPlayer" />
+      <recent name="C:\Users\Bonie\Desktop\Projects\deezer2\pages\artist" />
+      <recent name="C:\Users\Bonie\Desktop\Projects\deezer2\pages" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Bonie\Desktop\Projects\deezer2\pages\artist" />
+      <recent name="C:\Users\Bonie\Desktop\Projects\deezer2\assets\img" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="server.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/node_modules/cors-anywhere/server.js" working-dir="$PROJECT_DIR$/node_modules/cors-anywhere">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.server.js" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ceb25a26-ed35-4e1e-a812-80eac1981885" name="Changes" comment="" />
+      <created>1637785209085</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1637785209085</updated>
+      <workItem from="1637785210530" duration="6894000" />
+      <workItem from="1637792516161" duration="9989000" />
+      <workItem from="1637822394955" duration="16752000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>
